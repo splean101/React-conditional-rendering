@@ -1,0 +1,33 @@
+{
+  "name": "react-conditional-rendering",
+  "version": "1.0.0",
+  "description": "Создайте форму для калькулятора. На форме должно быть два поля ввода для чисел и четыре кнопки с операциями (сложение, вычитание, умножение и деление).\r Для полей ввода нужно реализовать валидацию, которая должна сопровождаться соответствующим сообщением об ошибке.\r Также нужно предусмотреть соответствующее сообщение при делении на ноль.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splean101/React-conditional-rendering.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/splean101/React-conditional-rendering/issues"
+  },
+  "homepage": "https://github.com/splean101/React-conditional-rendering#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
